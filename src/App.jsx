@@ -2,7 +2,7 @@ import { useState } from 'react'
 import quadradoimg from '/quadrado.jpg'
 import trianguloimg from '/triangulo.jpg'
 import retanguloimg from '/retangulo.jpg'
-import './App.css'
+import '/src/App.css'
 
 function App() {
   const [shape, setShape] = useState('');
